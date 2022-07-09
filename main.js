@@ -40,7 +40,7 @@ connection.connect(function(err) {
 // )
 
 // connection.query(
-//     `DELETE FROM skladniki WHERE name = "cukier"`,
+//     `SELECT * FROM skladniki"`,
 //     function (error, results, fields){
 //         if (error) throw error;
 //         console.log(results[1].name);
